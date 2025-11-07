@@ -1,7 +1,6 @@
 {
   "name": "portfolio-react",
   "private": true,
-  "homepage": "https://Gianca307.github.io/portfolio-1",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,8 +8,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
