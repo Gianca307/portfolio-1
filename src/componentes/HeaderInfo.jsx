@@ -2,13 +2,13 @@ const HeaderInfo = () => {
   return (
     <header className="flex flex-col justify-between p-5 border-b-2 border-orange-300">
       <div>
-        <h1 className="hover:text-orange-300 text-sm font-medium tracking-wide sm:text-lg">
+        <h1 className="hover:text-orange-300 text-base font-medium tracking-wide sm:text-xl">
           {"< Portaluppi Giancarlo Alberto />"}
         </h1>
       </div>
       <div className="pt-3">
         <a
-          className="flex items-center gap-1 text-sm sm:text-base"
+          className="flex items-center gap-1 text-base sm:text-lg"
           href="/files/pdf_cv_PortaluppiGiancarloAlberto.pdf"
           rel={"noopener noreferrer"}
           target="_blank"
